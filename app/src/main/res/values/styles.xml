@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/white</item>
+        <item name="background">@color/darkGreen</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:icon">@drawable/inlocoweathermapicon</item>
+        <item name="icon">@drawable/inlocoweathermapicon</item>
+        <item name="android:displayOptions">showHome</item>
+        <item name="displayOptions">showHome</item>
+    </style>
+
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/abc_ab_share_pack_mtrl_alpha</item>
+    </style>
+
+    <!-- ActionBar styles for Text Style -->
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <color name="white">#FFFFFF </color>
+    <color name="darkGreen">#026661 </color>
+</resources>
